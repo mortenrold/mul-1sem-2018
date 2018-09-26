@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+	text-align: justify;
+	line-height: 140%;
+	width: 500px;
+}
+body {
+	background-color: #8BCCE2; 
+	background-image: url("img/kat.jpeg");
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	background-size: cover;
+}
+h1 {
+	font-family: 'Crete Round', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 60px;
+	/* text-decoration: underline; */ 
+}
+a {
+	color: #666;
+	text-decoration: none;
+	display: block; /* her ændrer jeg hvordan "a" bliver vist - før var et "inline-element", nu er det et "block-element" */
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: #024CCF;
+}
+a:hover {
+	color: #5A8F12;
+	font-weight: bold;
+	font-family: georgia, serif;
+	letter-spacing: 10px;
+}
+a:active {
+	color: red;
+}
+/* ID starter med # */
+#den-foerste {
+	color: red;
+}
+/* class starter med . */
+.fire-ben  {
+	color: green;
+}
+.to-ben {
+	color: brown;
+}
+span {
+	font-weight: bold;
+}
+span.highlight {
+	background: yellow;
+}
+#kasse1 {
+	background: #ddd;
+	margin: 50px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #333;
+	width: 50%;
+	float: left;
+}
+#kasse2 {
+	background: #eee;
+	padding: 50px;
+	border: 2px dashed #333; /* shortcode til de tre border-værdier */
+	width: 300px;
+	height: 400px;
+	float: right;
+}
+.tekst {
+	position: absolute;
+	top: 20px;
+	right: 31px;
+	width: 100px;
+	border: 1px solid white;
+}
+.tekst2 {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+
+
+
+
