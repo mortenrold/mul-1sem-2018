@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tips og tricks med Morten</title>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+		div {
+			width: 300px;
+			height: 100px;
+		}
+		#my-shadow {
+			background: #CD1919;
+			box-shadow: 5px 7px 15px #666;
+		}
+		#my-gradient {
+			background: linear-gradient(#6868E4, #3F3F87);
+		}
+		#my-rotation {
+			background: #3EA03E;
+			transform: rotate(-15deg);
+		}
+		#my-transition {
+			background: #F0DB31;
+			transition: width 2s;
+			transition-timing-function: ease-in;
+		}
+		#my-transition:hover {
+			width: 600px;
+		}
+		h1 {
+			text-shadow: 2px 2px 3px #999;
+		}
+		.spalter {
+			column-count: 3;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>Skygge</h2>
+	<div id="my-shadow"></div>
+	<h2>Farveforløb (gradient)</h2>
+	<div id="my-gradient"></div>
+	<h2>Rotation</h2>
+	<div id="my-rotation"></div>
+	<h2>Animation</h2>
+	<div id="my-transition"></div>
+	<h1>Skygge på tekst</h1>
+	<h2>Tekst i spalter</h2>
+	<p class="spalter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit soluta aliquid dolor illo ullam pariatur est quis a praesentium possimus, quibusdam, adipisci, corporis nihil sed! Velit dolore, ab temporibus incidunt esse distinctio illum nam doloremque voluptas qui dolorem, vero deleniti ullam eos ea dolores tempore, similique saepe quo, eum impedit ipsa provident expedita rem! Enim quibusdam ullam quo dicta dolor, necessitatibus optio nemo veniam temporibus qui. Minima earum nemo repudiandae voluptate, odit doloremque cumque nobis ipsum quisquam beatae ipsam consectetur mollitia aliquid voluptas quidem saepe atque molestias tempora dolorum voluptatum soluta nam culpa, illo voluptatem quis! Vitae, porro harum aliquid?</p>
+</body>
+</html>
