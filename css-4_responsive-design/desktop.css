@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS til store skærme fx desktop */
+
+body {
+	margin: 1%;
+}
+aside {
+	display: block;
+	width: 15.5%;
+	background: #9BC59B;
+}
+article {
+	width: 50.5%;
+}
+.banner {
+	width: 20%;
+}
+
+/* media query "indlejret" i dette style sheet. Låser layoutet ved 1200px bredde */
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
