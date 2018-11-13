@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Simplegrid dokument fra internettet*/
+@import "simplegrid.css";
+
+body {
+	background-color: white;
+}
+
+.content {
+	background-color: darkgray;
+}
+
+/*Jeg ændre på hans originale stylesheet, så jeg overwriter hans Padding. Jeg kopierer det herind, for at være sikker på at jeg ikke ødelægger noget i det originale stylesheet*/
+[class*='col-'] {
+	padding-right: 10px; /* column-space */
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 16px;
+}
+
+.header, .footer {
+	height: 40px;
+}
+
+.news {
+	height: 180px;
+}
+
+.linje3 {
+	height: 180px;
+}
+
+.banner {
+	height: 50px;
+}
+
+.linje4 {
+	height: 180px;
+}
+
+.logo {
+	height: 80px;
+}
+
+.linje6 {
+	height: 30px;
+}
+
+#logo {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#logo4 {
+	padding-right: 10px;
+	margin-right: 0;
+}
+
+#banner {
+	padding: 0px;
+	margin: 0px;
+}
+
+#banner3 {
+	padding-right: 10px;
+	margin-right: 0;
+}
